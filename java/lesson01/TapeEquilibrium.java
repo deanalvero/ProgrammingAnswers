@@ -3,10 +3,10 @@ package com.mangoturtle.codility;
 /**
  * Created by Dean on 6/24/2015.
  *
- * TapeEquilibrium - Time Complexity
+ * TapeEquilibrium - Time Complexity - Java
+ * Minimize the value |(A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1])|.
  * https://codility.com/demo/take-sample-test/tape_equilibrium/
  *
- * Detected time complexity: O(N)
  */
 public class TapeEquilibrium {
 
