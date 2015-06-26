@@ -9,6 +9,9 @@ TapeEquilibrium
 FrogJmp
 [java](https://github.com/deanalvero/codility/blob/master/java/lesson01/FrogJmp.java)
 [objective-c](https://github.com/deanalvero/codility/blob/master/objective-c/lesson01/FrogJmp.m)
+[python](https://github.com/deanalvero/codility/blob/master/python/lesson01/FrogJmp.py)
 
 PermMissingElem
+[java](https://github.com/deanalvero/codility/blob/master/java/lesson01/PermMissingElem.java)
 [objective-c](https://github.com/deanalvero/codility/blob/master/objective-c/lesson01/PermMissingElem.m)
+[python](https://github.com/deanalvero/codility/blob/master/python/lesson01/PermMissingElem.py)
