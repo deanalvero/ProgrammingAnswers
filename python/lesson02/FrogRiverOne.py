@@ -5,7 +5,7 @@
 #
 
 def solution(X, A):
-	B = [-1] * (X + 1)
+    B = [-1] * (X + 1)
 	count = 0
 	for i in xrange(len(A)):
 		if B[A[i]] == -1:
