@@ -15,3 +15,13 @@ PermMissingElem
 [java](https://github.com/deanalvero/codility/blob/master/java/lesson01/PermMissingElem.java)
 [objective-c](https://github.com/deanalvero/codility/blob/master/objective-c/lesson01/PermMissingElem.m)
 [python](https://github.com/deanalvero/codility/blob/master/python/lesson01/PermMissingElem.py)
+
+##Lesson 2 [Counting Elements](https://codility.com/programmers/lessons/2)
+FrogRiverOne
+[python](https://github.com/deanalvero/codility/blob/master/python/lesson02/FrogRiverOne.py)
+
+PermCheck
+[python](https://github.com/deanalvero/codility/blob/master/python/lesson02/PermCheck.py)
+
+MissingInteger
+[python](https://github.com/deanalvero/codility/blob/master/python/lesson02/MissingInteger.py)
