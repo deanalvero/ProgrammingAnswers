@@ -5,13 +5,13 @@
 #
 
 def solution(A):
-	length = len(A)
-	B = [False] * (length + 1)
-	for i in xrange(length):
-		if A[i] > length or B[A[i]]:
-			return 0
-		B[A[i]] = True
-	return 1
+    length = len(A)
+    B = [False] * (length + 1)
+    for i in xrange(length):
+        if A[i] > length or B[A[i]]:
+            return 0
+        B[A[i]] = True
+    return 1
 
 def main():
     print solution([4, 1, 3, 2])
