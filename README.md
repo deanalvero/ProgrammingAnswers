@@ -25,3 +25,6 @@ PermCheck
 
 MissingInteger
 [python](https://github.com/deanalvero/codility/blob/master/python/lesson02/MissingInteger.py)
+
+MaxCounters
+[python](https://github.com/deanalvero/codility/blob/master/python/lesson02/MaxCounters.py)
