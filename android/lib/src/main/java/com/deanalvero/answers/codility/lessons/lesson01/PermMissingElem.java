@@ -1,4 +1,4 @@
-package com.mangoturtle.codility;
+package com.deanalvero.answers.codility.lessons.lesson01;
 
 // PermMissingElem - Time Complexity - Java
 // Find the missing element in a given permutation.

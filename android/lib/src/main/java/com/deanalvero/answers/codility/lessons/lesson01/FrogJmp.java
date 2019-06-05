@@ -1,4 +1,4 @@
-package com.mangoturtle.codility;
+package com.deanalvero.answers.codility.lessons.lesson01;
 
 /**
  * Created by Dean on 6/25/2015.
