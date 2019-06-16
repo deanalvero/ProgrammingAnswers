@@ -5,8 +5,6 @@ import java.util.Map;
 
 public class NRepeatedElementInSize2NArray {
     public int repeatedNTimes(int[] A) {
-        int N = A.length / 2;
-
         Map<Integer, Integer> map = new HashMap<>();
 
         for (int i = 0; i < A.length; i++) {
@@ -19,7 +17,7 @@ public class NRepeatedElementInSize2NArray {
             value++;
             map.put(key, value);
 
-            if (value >= N) {
+            if (value > 1) {
                 return key;
             }
         }
