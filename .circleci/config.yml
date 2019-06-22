@@ -25,12 +25,23 @@ jobs:
           command: ./gradlew :android:lint :android:test
       - store_artifacts:
           path: android/app/build/reports
-          destination: reports
+          destination: app/reports
+      - store_artifacts:
+          path: android/lib/build/reports
+          destination: lib/reports
       - run:
-          name: Save test results
+          name: Save app test results
           command: |
             mkdir -p android/app/build/test-results/junit/
-            find . -type f -regex ".*/build/test-results/.*xml" -exec cp {} android/app/build/test-results/junit/ \;
+            find . -type f -regex ".*/android/app/build/test-results/.*xml" -exec cp {} android/app/build/test-results/junit/ \;
+          when: always
+      - run:
+          name: Save lib test results
+          command: |
+            mkdir -p android/lib/build/test-results/junit/
+            find . -type f -regex ".*/android/lib/build/test-results/.*xml" -exec cp {} android/lib/build/test-results/junit/ \;
           when: always
       - store_test_results:
           path: android/app/build/test-results
+      - store_test_results:
+          path: android/lib/build/test-results
