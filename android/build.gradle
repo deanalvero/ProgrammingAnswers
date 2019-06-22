@@ -25,3 +25,15 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+task lint() {
+    subprojects.each { p ->
+        dependsOn "${p.path}:lint"
+    }
+}
+
+task test() {
+    subprojects.each { p ->
+        dependsOn "${p.path}:test"
+    }
+}
