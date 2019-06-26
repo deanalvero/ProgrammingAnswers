@@ -8,5 +8,7 @@ android:
     - platform-tools
     - android-28
 
+before_script:
+  - chmod +x gradlew
 script:
   ./gradlew :android:lint :android:test
