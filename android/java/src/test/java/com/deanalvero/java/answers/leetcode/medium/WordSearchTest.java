@@ -3,6 +3,8 @@ package com.deanalvero.java.answers.leetcode.medium;
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
+
 public class WordSearchTest {
     private WordSearch testee;
 
@@ -14,7 +16,7 @@ public class WordSearchTest {
     @Test
     public void exist_inputExampleOne_returnCorrectOutput() {
         boolean expected = true;
-        testee.exist(
+        boolean actual = testee.exist(
                 new char[][] {
                         new char[] {'A','B','C','E'},
                         new char[] {'S','F','C','S'},
@@ -22,12 +24,13 @@ public class WordSearchTest {
                 },
                 "ABCCED"
         );
+        assertEquals(expected, actual);
     }
 
     @Test
     public void exist_inputExampleTwo_returnCorrectOutput() {
         boolean expected = true;
-        testee.exist(
+        boolean actual = testee.exist(
                 new char[][] {
                         new char[] {'A','B','C','E'},
                         new char[] {'S','F','C','S'},
@@ -35,12 +38,13 @@ public class WordSearchTest {
                 },
                 "SEE"
         );
+        assertEquals(expected, actual);
     }
 
     @Test
     public void exist_inputExampleThree_returnCorrectOutput() {
         boolean expected = false;
-        testee.exist(
+        boolean actual = testee.exist(
                 new char[][] {
                         new char[] {'A','B','C','E'},
                         new char[] {'S','F','C','S'},
@@ -48,5 +52,6 @@ public class WordSearchTest {
                 },
                 "ABCB"
         );
+        assertEquals(expected, actual);
     }
 }
